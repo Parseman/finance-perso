@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\cleme\\\\finance-perso\" -Force -Recurse)",
+      "Bash(Select-Object FullName)",
+      "Bash(Remove-Item -Force \"c:\\\\Users\\\\cleme\\\\finance-perso\\\\src\\\\lib\\\\prisma.ts\")",
+      "Bash(Remove-Item -Force \"c:\\\\Users\\\\cleme\\\\finance-perso\\\\prisma\\\\schema.prisma\")",
+      "Bash(Remove-Item -Force \"c:\\\\Users\\\\cleme\\\\finance-perso\\\\prisma\\\\seed.ts\")",
+      "Bash(Write-Output \"Fichiers Prisma supprimés\")"
+    ]
+  }
+}
